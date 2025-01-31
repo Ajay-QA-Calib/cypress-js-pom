@@ -1,0 +1,11 @@
+  {
+    "valid": {
+      "username": "trinity@mailsac.com",
+      "password": "Test@1234"
+    },
+    "invalid": {
+      "username": "ajay.pk@calibraint.com",
+      "password": "Test#1234"
+    }
+  }
+  
