@@ -31,3 +31,10 @@ When('user tries to login with valid username and invalid password', function ()
         cy.login(this.userdata.valid.username, this.userdata.invalid.password);
     });
 });
+
+Then('User got a popup as Incorrect username or password', function () {
+    cy.on('[role="alert"]',(txt)=>{
+        cy.wait(3000);
+        expect(txt).to.contains('Incorrect username or password.');
+        })
+})

@@ -13,5 +13,4 @@ Feature: Login functionality validation
   Scenario: User login vith valid username and invalid password
     Given Launch the login page
     When user tries to login with valid username and invalid password
-    Then User got a popup as user does not Exist
-
+    Then User got a popup as Incorrect username or password
