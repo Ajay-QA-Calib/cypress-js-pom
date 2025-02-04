@@ -14,8 +14,8 @@
   "keywords": [
     "cypress"
   ],
-  "author": "cucumber",
-  "license": "ISC",
+  "author": "Ajay",
+  "license": "UNLICENSED",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.3.0",
     "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
